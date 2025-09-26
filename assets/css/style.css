@@ -120,6 +120,7 @@ body {
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 500;
 }
 
 #info > h2 {
@@ -153,4 +154,32 @@ body {
     width: 200px;
     border: #3882F6 solid 5px;
     border-radius: 50px;
+}
+
+#testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+
+}
+
+.testimonial-txt {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.testimonial-author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
 }
