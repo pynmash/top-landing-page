@@ -92,17 +92,20 @@ body {
     color: purple;
 }
 
-.left button {
-    border: none;
+button {
     background-color: #3882F6;
     font-size: 1.5rem;
     color: #f9faf8;
     padding: 10px;
     border-radius: 10px;
+}
+
+#hero button {
+    border: none;
     margin-top: 50px;
 }
 
-.left > button > svg {
+button > svg {
     height: 25px;
     width: 25px
 }
@@ -182,4 +185,36 @@ body {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* Call to action */
+#call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.call-to-action-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.call-to-action-txt {
+    color: #f9faf8;
+}
+
+.call-to-action-txt h3 {
+    font-size: 22px;
+}
+
+.call-to-action-content > button {
+    border: #f9faf8 solid 1px;
+    flex-grow: 0;
 }
