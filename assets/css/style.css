@@ -34,6 +34,11 @@ body {
     
 }
 
+.nav-links  svg {
+    height: 50px;
+    width: 50px;
+}
+
 #nav-home {
     font-weight: bold;
     font-size: 3rem;
@@ -54,7 +59,7 @@ body {
 
 #hero h1 {
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 30px;
 }
 
@@ -67,14 +72,29 @@ body {
     max-width: 25vw;
 }
 
+.green {
+    color: green;
+    text-decoration: underline;
+}
+
+.purple {
+    text-decoration: underline;
+    color: purple;
+}
+
 .left button {
     border: none;
     background-color: #3882F6;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #f9faf8;
     padding: 10px;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+.left > button > svg {
+    height: 40px;
+    width: 40px
 }
 
 #hero img {
